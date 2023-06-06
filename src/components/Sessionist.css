@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Sessionist {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Sessionist .first-half {
+    flex: 1;
+    background-color: #121212; /* Dark mode background */
+}
+
+.Sessionist .first-half .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sessionist .first-half .text-container h2 {
+    font-size: 4em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF; /* Text color for dark mode */
+    text-align: left;
+}
+
+.Sessionist .first-half .text-container p {
+    font-size: 2em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: normal;
+    color: #FFFFFF; /* Text color for dark mode */
+    text-align: center;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.Sessionist .second-half {
+    flex: 1;
+    background: #6e40d9; /* Gradient background */
+}
+
+.Sessionist .second-half .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.Sessionist .second-half img {
+    width: calc(95vh/1.5);
+    height: auto;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    border: 20px solid #200461;
+}

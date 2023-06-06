@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Teacher2 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Teacher2 .first-half {
+    flex: 1;
+    background-color: #7F74AE;
+}
+
+.Teacher2 .first-half .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.Teacher2 .first-half img {
+    width: calc(120vh/1.5);
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 23%;
+    padding: 10px;
+    border: 20px solid #a293e6;
+}
+
+.Teacher2 .second-half {
+    flex: 1;
+    background-color: floralwhite;
+}
+
+.Teacher2 .second-half .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.Teacher2 .second-half .text-container h2 {
+    font-size: 4em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Teacher2 .second-half .text-container p {
+    font-size: 2em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    max-width: 550px;
+    margin: 20px auto;
+}

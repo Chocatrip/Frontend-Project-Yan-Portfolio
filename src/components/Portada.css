@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.Portada {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Portada::after {
+  content: "";
+  position: absolute;
+  top: 700px;
+  right: 700px; 
+  width: 25.5%; 
+  height: 25.5%;
+  background-image: url('../img/violin-icon.png'); 
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.Portada .first-half{
+  flex: 1;
+  background-color: floralwhite;
+  background-image:  url('../img/border-superior-1.png');
+  background-size: contain;
+  background-position-y: top;
+  background-repeat: no-repeat; 
+}
+
+.Portada .second-half{
+  flex: 1;
+  background-color: #6b0d34;
+}
+
+.Portada .second-half .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portada-image {
+    width: calc(100vh/1.5);
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 10%;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.5 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 40px solid black;
+}
+
+
+
+.portada-text-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 200px;
+}
+
+.nombre-violinista {
+    font-size: 7.5em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -10%;
+    text-indent: -33%;
+}
+
+.apellido-violinista {
+    font-size: 6.4em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 33%;
+}
+
+.portada-subtitle {
+    font-size: 2.4em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    text-indent: -340px;
+}

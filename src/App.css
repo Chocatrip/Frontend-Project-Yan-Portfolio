@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.App > * {
+  min-height: 101vh;
+}
+
+.student-section {
+  min-height: 101vh;
+  /* Agrega aquí cualquier otro estilo que quieras */
+}
+
+.teacher-section {
+  min-height: 100vh;
+  /* Agrega aquí cualquier otro estilo que quieras */
+}
+
+.sessionist-section {
+  min-height: 100vh;
+  /* Agrega aquí cualquier otro estilo que quieras */
+}

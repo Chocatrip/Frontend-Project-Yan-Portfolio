@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Student from './components/Student';
+import Student2 from './components/Student2';
+import Teacher from './components/Teacher';
+import Teacher2 from './components/Teacher2';
+import Sessionist from './components/Sessionist';
+import Sessionist2 from './components/Sessionist2';
+import Portada from './components/Portada';
+import Resena from './components/Resena';
+import Prensa from './components/Prensa';
+import Prensa2 from './components/Prensa2';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Portada />
+      <Resena />
+      <Student />
+      <Student2 />
+      <Teacher />
+      <Teacher2/>
+      <Sessionist />
+      <Sessionist2 />
+      <Prensa></Prensa>
+      <Prensa2></Prensa2>
     </div>
   );
 }

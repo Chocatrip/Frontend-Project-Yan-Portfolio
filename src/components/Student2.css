@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Student2 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Student2 .first-half{
+    flex: 1;
+    background-color: floralwhite; /* Dark mode background color */
+}
+
+.Student2 .first-half .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17%;
+}
+
+.Student2 .first-half .text-container h2 {
+    font-size: 4em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Student2 .first-half .text-container p {
+    font-size: 2em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    max-width: 650px;
+    margin: 25px auto;
+}
+
+.Student2 .second-half {
+    flex: 1;
+    background-color: #914b91; /* Darker purple background color */
+}
+
+.Student2 .second-half .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 60px;
+}
+
+.Student2 .second-half img {
+    width: calc(70vh/1.5);
+    height: auto;
+    box-sizing: content-box;
+    margin-right:85px;
+    margin-top:10%;
+    padding: 10px;
+    border: 20px solid #3d003d; /* Darker border color for dark mode */
+}

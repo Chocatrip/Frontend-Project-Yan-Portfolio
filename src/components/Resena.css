@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.Resena {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Resena .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+}
+
+.Resena .first-half img {
+    width: calc(120vh/1.5);
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 23%;
+    padding: 10px;
+    border: 20px solid #ffc4ca;
+}
+
+.Resena .first-half{
+  flex: 1;
+  background-color: #CC7178;
+}
+
+.Resena .second-half {
+  flex: 1;
+  background-color: floralwhite;
+}
+
+
+.Resena .second-half .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Resena .second-half .text-container h2 {
+    font-size: 4em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Resena .second-half .text-container p {
+    font-size: 2em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+/* Existing styles... */
+
+.Resena .second-half .text-container .list-section {
+    font-family: 'PT Serif', sans-serif;
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-left: -75px;
+    padding-left: -90px;
+    text-indent: 10px;
+  }
+  
+  .Resena .second-half .text-container .list-section .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+  
+  .Resena .second-half .text-container .list-section .list-item .list-icon {
+    margin-right: 5px;
+    height: 40px;
+    width: 40px; 
+    color: #000;
+  }
+  
+  .Resena .second-half .text-container .list-section .list-item p {
+    margin: 5px;
+    color: #000;
+  }

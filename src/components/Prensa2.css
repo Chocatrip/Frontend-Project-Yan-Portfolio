@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PTSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+
+.Prensa2 {
+    max-height: 102vh;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Prensa2 .first-half{
+    flex: 1;
+    box-sizing: inherit;
+    background-color: #121212; /* Dark mode background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Prensa2 .second-half{
+    flex: 1;
+    background-color: #ffbae4; /* Dark mode background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Prensa2 .first-half .image-container img{
+    width: calc(50vh/1.5);
+    height: auto;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right:85px;
+    max-height: 450px;
+    margin-left: 6%;
+    margin-top: 2%;
+    padding: 10px;
+    border: 20px solid #ffc5fa; /* Darker border color for dark mode */
+}
+.Prensa2 .second-half .image-container img{
+    width: calc(60vh/1.5);
+    height: auto;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-height: 700px;
+    margin-top: 3%;
+    margin-right:85px;
+    margin-left: 6%;
+    padding: 10px;
+    border: 20px solid #121212; /* Darker border color for dark mode */
+}
+
+.Prensa2 .first-half .image-container h2{
+    font-size: 3em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    max-width: 1000px;
+    color: #FFFFFF;
+}
+.Prensa2 .second-half .image-container h2{
+    font-size: 3em;
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.img-1-prensa2
+{
+    width: calc(75vh/1.5) !important;
+}
+.img-2-prensa2
+{
+    width: calc(55vh/1.5) !important;
+}
+.img-3-prensa2
+{
+    width: calc(50vh/1.5) !important;
+}
+.img-4-prensa2
+{
+    width: calc(70vh/1.5) !important;
+}
